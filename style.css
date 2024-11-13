@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+.cab{
+    background-color:rgb(229, 247, 180) ;
+   display: flex;
+justify-content: space-between;
+
+}
+.logo{
+    width:8%;
+
+
+ }
+ .perfil{
+   width: 45px;
+   height: 45px;
+   position: relative;
+   padding-top: 30px;
+   
+ }
+ 
+ .dv{
+    display: flex;
+ }
+ .mainmenubtn {
+    background-color: rgb(229, 247, 180);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.tp{
+width: 25px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(229, 247, 180);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(229, 247, 180);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.placa{
+width: 20%;
+}
+.sect{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2{
+display: flex;
+justify-content: space-between;
+margin-left: 3%;
+margin-right: 4%;
+
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+   
+}
+
+.sec4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.preco1{
+    margin-right: 5%;
+}
+.ft{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(229, 247, 180) ;
+}
